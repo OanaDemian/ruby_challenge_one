@@ -3,5 +3,10 @@
 # - include at least one of these characters: !, @, $, %, & .include?("")
 
 def valid?(password)
-  password.length > 7 && (password.include?("@") || password.include?("$") || password.include?("%") || password.include?("&") || password.include?("!")) ? true : false
+  password.length > 7 &&
+  (password.include?("@") ||
+  password.include?("$") ||
+  password.include?("%") ||
+  password.include?("&") ||
+  password.include?("!"))
 end
