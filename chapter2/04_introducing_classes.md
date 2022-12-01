@@ -130,10 +130,10 @@ Here's a challenge for you – add a method to the `Person` class that will retu
 <details>
 <summary>Solution</summary>
 <img src="../images/attr_reader.png"></img>
-</details>
 <p>
 If you needed to look at this solution, be sure to put what you've learned into practice by doing the same for birthday and favourite_language :)
 </p>
+</details>
 <br>
 
 > Methods which return instance variables are called _attribute readers_.
